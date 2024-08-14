@@ -56,3 +56,20 @@ body {
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   }
+
+  img {
+    width: 30%;
+    height: 30%rem;
+  }
+
+  .pexels {
+    text-align: center;
+    margin: auto;
+    padding-top: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    img {
+       width: 95%;
+    }
+}
